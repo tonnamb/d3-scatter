@@ -44,7 +44,7 @@ d3.tsv("data.tsv", function(error, data) {
 
   // Create x axis line, ticks
   svg.append("g")
-      .attr("class", "x axis")
+      .attr("class", "x-axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
   
@@ -57,7 +57,7 @@ d3.tsv("data.tsv", function(error, data) {
 
   // Create y axis line, ticks
   svg.append("g")
-      .attr("class", "y axis")
+      .attr("class", "y-axis")
       .call(yAxis)
       
   // Create y axis label
